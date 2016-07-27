@@ -1,0 +1,93 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css" type="text/css"/>
+		<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+		<script type="text/javascript" src="js/admin.js"></script>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12">
+					<h3>
+						Keep Talking and Nobody Explodes Competition Admin
+					</h3> 
+					<br>
+					<label for="missionId">
+						Mission:
+					</label>
+					<select class="input-lg" id="missionId">
+					  <option value="firsttime">First Bomb</option>
+					  <option value="somethingoldsomethingnew">Something Old, Something New</option>
+					  <option value="doubleyourmoney">Double Your Money</option>
+					  <option value="onestepup">One Step Up</option>
+					  <option value="pickupthepace">Pick up the Pace</option>
+					  <option value="ahiddenmessage">A Hidden Message</option>
+					  <option value="somethingsdifferent">Something's Different</option>
+					  <option value="giantleap">One Giant Leap</option>
+					  <option value="fairgame">Fair Game</option>
+					  <option value="pickupthepacetwo">Pick up the Pace II</option>
+					  <option value="noroomforerror">No Room for Error</option>
+					  <option value="eightminutes">Eight Minutes</option>
+					  <option value="asmallwrinkle">A Small Wrinkle</option>
+					  <option value="payattention">Pay Attention</option>
+					  <option value="theknob">The Knob</option>
+					  <option value="multitasker">Multi-tasker</option>
+					  <option value="wireseverywhere">Wires! Wires Everywhere!</option>
+					  <option value="rtfm">Computer Hacking</option>
+					  <option value="whosonfirst">Who's on First?</option>
+					  <option value="fiendish">Fiendish</option>
+					  <option value="pickupthepacethree">Pick up the Pace III</option>
+					  <option value="onewitheverything">One with Everything</option>
+					  <option value="pickupthepacefour">Pick up the Pace IV</option>
+					  <option value="juggler">Juggler</option>
+					  <option value="Juggler">Double Trouble</option>
+					  <option value="iamhardcore">I am Hardcore</option>
+					  <option value="blinkenlights">Blinkenlights</option>
+					  <option value="appliedtheory">Applied Theory</option>
+					  <option value="amazing">A-maze-ing</option>
+					  <option value="snipsnap">Snip Snap</option>
+					  <option value="rainbowtable">Rainbow Table</option>
+					  <option value="blinkenlightstwo">Blinkenlights II</option>					  
+					</select>
+					<label for="seed">
+						Seed:
+					</label>
+					<input class="input-lg" id="seed" value="1234"></input>
+					<button id="random">Random</button>
+					<br>
+					<br>
+					<button type="button" class="btn btn-default" id="startMission">
+						Start Mission
+					</button>
+					<br>
+					<br>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="computer1IP">
+									Computer #1 IP:PORT
+								</label>
+								<input type="text" class="form-control" id="computer1IP" value="localhost:8085"/>
+								<span id="status1"></span>
+							</div>
+							<div id="bombInfo1">
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="computer2IP">
+									Computer #2 IP:PORT
+								</label>
+								<input type="text" class="form-control" id="computer2IP"/>
+								<span id="status2"></span>
+							</div>
+							<div id="bombInfo2">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
