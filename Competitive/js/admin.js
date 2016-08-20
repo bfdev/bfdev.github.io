@@ -57,7 +57,7 @@ function handleBombInfo(bombInfo)
 		var modulesRemaining = bombInfo['SolvableModules'].length - bombInfo['SolvedModules'].length;
 		var html = "";
 		html += "Time : " + bombInfo['Time'] + "<br>";
-		html += "Strikes : " + bombInfo['Time'] + "<br>";
+		html += "Strikes : " + bombInfo['Strikes'] + "<br>";
 		html += "Modules Remaining: " + modulesRemaining + "<br>";
 		return html;
 	}
